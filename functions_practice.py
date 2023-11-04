@@ -13,7 +13,7 @@ hello()
 
 
 def pack(one, two, three):
-    return [one, two, three]
+    return [1, 2, 3]
 
 print(pack("one", "two", "three"))
 
@@ -37,5 +37,4 @@ def eat_lunch(lunch_meal):
                 
 
 eat_lunch([])
-eat_lunch(["a Salad"])
 eat_lunch(["a Salad", "a Sandwich", "Pudding", "Cake"])
